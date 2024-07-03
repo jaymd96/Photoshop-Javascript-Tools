@@ -1,4 +1,5 @@
-imageDir: /Users/jamesmason-drust/Desktop/Photoshop-Javascript-Tools/marseille-tarot-cards-raw-image
+imageDir: /Users/jamesmason-drust/Desktop/Photoshop-Javascript-Tools/marseille-tarot-cards-raw-image 
+OutputDir: /Users/jamesmason-drust/Desktop/Photoshop-Javascript-Tools/output
 defaultNameFontSize: 30
 cards:
 - name: The Fool (0)
