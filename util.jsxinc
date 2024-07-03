@@ -32,3 +32,23 @@ function removeFileExtension(filename) {
   // http://stackoverflow.com/questions/1818310/regular-expression-to-remove-a-files-extension
   return filename.substr(0, filename.lastIndexOf('.')) || filename;
 }
+
+function readFile(path) {
+  var file = new File(path);
+  file.open("r");
+  var content = file.read();
+  file.close();
+  return content;
+}
+
+
+function readObjectsFromJson(filename){
+  try {
+    var jsonText = readFile(filename);
+    var objects = JSON.parse(jsonText);
+    return objects;
+  } catch (e) {
+    $.writeln(e);
+    return null;
+  }
+}

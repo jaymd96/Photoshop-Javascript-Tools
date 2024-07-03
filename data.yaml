@@ -1,0 +1,139 @@
+imageDir: /Users/jamesmason-drust/Desktop/Photoshop-Javascript-Tools/marseille-tarot-cards-raw-image 
+OutputDir: /Users/jamesmason-drust/Desktop/Photoshop-Javascript-Tools/output
+defaultNameFontSize: 30
+cards:
+- name: The Fool (0)
+  type: Major
+  ability: Swap positions of any two pieces on the board. 
+  token: 3
+  image: 0-thefool.jpg
+
+- name: The Magician (I)
+  type: Major
+  ability: Change the movement pattern of one piece to that of another for one turn.
+  token: 2
+  image: 1-themagician.jpg
+
+- name: The High Priestess (II)
+  type: Major
+  ability: Look at the opponent's hand and shuffle one card back into their deck.
+  token: 2
+  image: 2-highpriestess.jpg
+  overideNameFontSize: 25
+  
+- name: The Empress (III)
+  type: Major
+  ability: Revive one captured piece to any vacant spot on your half of the board.
+  token: 4
+  image: 3-theempress.jpg 
+
+- name: The Emperor (IV)
+  type: Major
+  ability: Protect a piece from being captured or targeted by effects for one turn.
+  token: 3
+  image: 4-theemperor.jpg 
+
+- name: The Hierophant (V)
+  type: Major
+  ability: Swap positions of two of your pieces.
+  token: 2
+  image: 5-thepope.jpg
+  overideNameFontSize: 25
+
+- name: The Lovers (VI)
+  type: Major
+  ability: Merge two adjacent pieces to move and capture as a unit for one turn. 
+  token: 3
+  image: 6-thelover.jpg 
+
+- name: The Chariot (VII)
+  type: Major
+  ability: Move any piece up to two additional squares beyond its normal capability. 
+  token: 2
+  image: 7-thechariot.jpg 
+
+- name: Strength (VIII)
+  type: Major
+  ability: A piece gains the ability to perform a "double capture" in one move if possible. 
+  token: 3
+  image: 8-justice.jpg
+
+- name: The Hermit (IX)
+  type: Major
+  ability: Make a piece immune to all effects and captures for one turn. 
+  token: 2
+  image: 9-thehermit.jpg 
+
+- name: Wheel of Fortune (X)
+  type: Major
+  ability: Randomly swap the positions of all pieces on your back row. 
+  token: 4
+  image: 10-fortune.jpg
+  overideNameFontSize: 25
+
+- name: Justice (XI)
+  type: Major
+  ability: Swap any piece on the board with one of your captured pieces. 
+  token: 3
+  image: 11-force.jpg 
+
+- name: The Hanged Man (XII)
+  type: Major
+  ability: Sacrifice your move to revive any high-value piece (Queen or Rook). 
+  token: 2
+  image: 12-thehangedman.jpg 
+  overideNameFontSize: 25
+
+- name: Death (XIII)
+  type: Major
+  ability: Permanently transform a pawn into a queen, rook, knight, or bishop. 
+  token: 3
+  image: 13-death.jpg 
+
+- name: Temperance (XIV)
+  type: Major
+  ability: All pieces are limited to moving only one square per turn for the next three turns. 
+  token: 2
+  image: 14-temperance.jpg 
+
+- name: The Devil (XV)
+  type: Major
+  ability: Choose an opponent's piece; it cannot move for two turns. 
+  token: 3
+  image: 15-thedevil.jpg 
+
+- name: The Tower (XVI)
+  type: Major
+  ability: Remove one piece from the game within a 3x3 grid centered on a chosen square.S 
+  token: 5
+  image: 16-thetower.jpg 
+
+- name: The Star (XVII)
+  type: Major
+  ability: Ensure all your pieces' moves result in a check for the next turn. 
+  token: 3
+  image: 17-thestar.jpg 
+
+- name: The Moon (XVIII)
+  type: Major
+  ability: Mimic an opponent's last move using one of your pieces. 
+  token: 2
+  image: 18-themoon.jpg 
+
+- name: The Sun (XIX)
+  type: Major
+  ability: All your pieces can move one additional square beyond their usual limit for one turn. 
+  token: 3
+  image: 19-thesun.jpg 
+
+- name: Judgement (XX)
+  type: Major
+  ability: Revive all your pawns on their starting positions. 
+  token: 5 
+  image: 20-judgement.jpg 
+
+- name: The World (XXI)
+  type: Major
+  ability: Swap any two pieces on the board. 
+  token: 4
+  image: 21-theworld.jpg 
